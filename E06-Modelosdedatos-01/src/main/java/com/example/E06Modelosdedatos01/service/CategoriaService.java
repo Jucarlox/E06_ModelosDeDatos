@@ -1,0 +1,10 @@
+package com.example.E06Modelosdedatos01.service;
+
+import com.example.E06Modelosdedatos01.model.Categoria;
+import com.example.E06Modelosdedatos01.repository.CategoriaRepository;
+import com.example.E06Modelosdedatos01.service.base.BaseService;
+import org.springframework.stereotype.Service;
+
+@Service
+public class CategoriaService extends BaseService<Categoria, Long, CategoriaRepository> {
+}
